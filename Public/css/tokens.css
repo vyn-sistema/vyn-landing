@@ -1,0 +1,40 @@
+:root {
+  /* Paleta Técnica Oficial VYN */
+  --bg-primary: #0B0F19;
+  --surface-card: #161922;
+  --surface-card-hover: #1c212d;
+  --accent-terminal: #00F59B;
+  --accent-terminal-glow: rgba(0, 245, 155, 0.15);
+  --border-slate: #64748B;
+  --border-subtle: rgba(100, 116, 139, 0.25);
+  --text-white: #FFFFFF;
+  --text-muted: #94A3B8;
+  --text-dim: #64748B;
+
+  /* Tipografías */
+  --font-heading: 'Plus Jakarta Sans', -apple-system, sans-serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Espaciado y radios */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --max-width: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-white);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
